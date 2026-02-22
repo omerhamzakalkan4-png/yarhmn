@@ -1,10 +1,3 @@
-Karakterin boşlukta sıkışmasının sebebi, yer altına (VerticalOffset = -3.5) indiğinde Roblox'un fizik motorunun seni haritanın dışına düşüyor sanıp karakteri dondurması veya noclip tam devreye girmeden bir parçaya takılmandır.
-
-Bunu çözmek için koda "BodyVelocity" (Yerçekimi Sabitleyici) ekledim. Bu sayede karakterin yerin altında "yüzüyormuş" gibi sabit duracak ve aşağı sonsuza kadar düşmeyecek ya da takılmayacak.
-
-Sıkışma Sorunu Giderilmiş Güncel Kod
-İki
--- MM2 ULTIMATE FARM (STUCK FIX + UNDERGROUND)
 local TweenService = game:GetService("TweenService")
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
